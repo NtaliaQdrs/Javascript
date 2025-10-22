@@ -19,15 +19,15 @@ app.use('/users', usersRoutes);
 const inicioRoutes = require('./routes/inicio');
 app.use('/inicio', inicioRoutes);
 
-<<<<<<< HEAD
 const produtosRoutes = require('./routes/produtos');
 app.use('/produtos', produtosRoutes);
 
+const clientesRoutes = require('./routes/clientes');
+app.use('/clientes', clientesRoutes);
 
 
 
-=======
->>>>>>> 041c2043d7d077ad5f32d525943aca936f803d0c
+
 // Servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
