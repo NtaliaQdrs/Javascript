@@ -1,3 +1,5 @@
+//entrepoint do aplicativo, ponto de partida do aplicativo
+
 const express = require('express');
 const path = require('path');
 const app = express();
